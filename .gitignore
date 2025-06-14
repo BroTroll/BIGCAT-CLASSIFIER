@@ -1,0 +1,10 @@
+# Ignore virtual environment
+my_env/
+
+# Ignore dataset used for training
+dataset/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
