@@ -19,6 +19,7 @@ st.title("🐯 Big Cat Classifier")
 st.write("Upload an image of a **leopard**, **lion**, or **tiger** and get the prediction!")
 st.markdown("✅ *Use a front-facing image*")
 st.markdown("✅ *Face should be clearly visible*")
+st.markdown("✅ *Face should cover atleast 40% of the image*")
 
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
